@@ -1,0 +1,266 @@
+.shojumaru-regular {
+  font-family: "Shojumaru", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*{ 
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+body{
+    font-family: "Shojumaru", system-ui;
+    
+
+}
+
+/* hero section */
+#hero{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url("resturant.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+hero_content{
+    position:absolute;
+    font-size: 2.8rem;
+}
+#hero_content h1{
+    color: white;
+    /* font-family: cursive; */
+}
+#hero_content h2{
+    color: white;
+    font-family: cursive;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+#hero_content > a{
+    color: white;
+    padding: 5px 20px 3px 20px;
+    border: 1px solid orange;
+    background-color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-radius: 25px;
+}
+#hero_content a:hover{
+    background: navy;
+}
+
+/* header section */
+#header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0,0,0,0.5);
+}
+
+#navbar > h1{
+    color: orange;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 2px white;
+    font-family: cursive;
+}
+#navbar > ul{
+    display: flex;
+}
+#navbar > ul > li{
+    list-style: none;
+    padding: 3px 15px 3px 15px;
+}
+#navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+#phone > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    padding: 3px 15px 3px 15px;
+    border: 1px solid orange; 
+}
+#navbar > ul > li > a:hover{
+    background: yellow;
+    /* cursor: pointer; */
+}
+#navbar > #phone a:hover{
+    color: black;
+}
+
+/* menu section */
+#menu{
+    padding: 25px 0 25px 0;
+}
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: verdana;
+}
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+}
+#menu_col{
+    box-shadow: 2px 2px 2px gray;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+#menu_col > h2{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: cursive;
+    
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid orange;
+    
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+   object-fit: cover;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+/* chef section */
+#chef{
+    padding: 25px 0 25px 0;
+    
+}
+
+#chef_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#chef_col{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+#img{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* contact section */
+
+#contact {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+}
+
+#contact h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+
+#contact-left {
+  max-width: 300px;
+  text-align: left;
+}
+
+#contact-left p {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+#social a {
+  text-decoration: none;
+  font-size: 22px;
+  margin: 5px;
+}
+
+
+#contact-right {
+  background-color: gray;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+#contact-right h2 {
+  margin-bottom: 15px;
+  font-family: cursive;
+}
+
+#contact-right input,
+#contact-right textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#contact-right button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-right button:hover {
+  background-color: darkorange;
+}
+input{
+    padding: 10px;
+}
